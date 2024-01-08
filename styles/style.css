@@ -97,6 +97,7 @@
     height: 500px;
     margin-top: 48px;
     margin-bottom: 0;
+    
 
 }
 
@@ -467,13 +468,13 @@
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
+    margin-bottom: 24px;
 
 
 }
 
 .photo-grid {
     width: 1320px;
-
     margin: auto;
 
 }
@@ -482,17 +483,22 @@
 .grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 5px;
+    grid-gap: 10px;
     margin: auto;
     overflow: hidden;
+}
+
+.grid-photo-container{
+    margin-bottom: 120px;
 }
 
 .grid>img {
     width: 424px;
     height: 450px;
-    margin-top: 24px;
+    /* margin-top: 24px; */
     transition: transform .2s ease;
-    margin-bottom: 120px;
+    
+    
 
 
 }
@@ -508,12 +514,14 @@
 /* Subscribe newsletter style section */
 
 .subscribe-newsletter {
+    
     width: 1320px;
     height: 616px;
     margin: auto;
     text-align: center;
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
+    
 }
 
 
@@ -570,6 +578,7 @@
     font-weight: 600;
     line-height: normal;
     text-transform: capitalize;
+
 }
 
 .subscribe-btn>input {
